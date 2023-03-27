@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #7373d3;
+}
+
+main > h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.4em;
+    text-align: center;
+}
+main > h1 > p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    text-align: justify;
+    
+}
+main > p {
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+}
